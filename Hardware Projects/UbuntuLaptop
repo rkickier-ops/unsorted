@@ -1,0 +1,24 @@
+This project was to convert my old HP Pavilion laptop from Windows 10 to Ubuntu Desktop
+
+
+Process:
+Flashed Ubuntu Desktop to a USB drive
+Inserted USB into my laptop
+Rebooted and loaded into the boot menu
+Choose the USB as the boot drive
+Select try or install Ubuntu
+Start the installation process through their setup GUI
+Laptop has RST protection, and Ubuntu cannot install 
+Remove the installation drive and reboot into the BIOS
+Disable RST, and remove the Optane drive
+Reboot with the installation drive, encounter same error
+Troubleshoot for hours on how to bypass RST with no success
+Remove the installation drive, and flash it with Ubuntu Server
+Reboot laptop with newly flashed drive
+Select the USB in the boot menu, select install Ubuntu Server
+Go through the installaton process using all default settings
+Configure wifi on the wlp1s0 interface, and add device to my home network
+Update all packages
+Install Ubuntu Desktop from the command line
+Reboot system and remove the USB
+Voila - Laptop now has Ubuntu Desktop
